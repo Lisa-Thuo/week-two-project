@@ -10,7 +10,7 @@ h1{
 }
 .Female{
     color: palevioletred;
-    float: right;
+    float: left;
 }
 .container {
     padding-right: 15px;
