@@ -1,18 +1,26 @@
 h1{
-    text-align: center;   
+    text-align: center; 
 }
 .names{
     text-align: center;
+    color: white;
 }
 .Male{
     color: navy;
     float: left;
 }
 .Female{
-    color: palevioletred;
+    color: pink;
     float: left;
 }
 .container {
     padding: 10px;
     margin-right: auto;
     margin-left: auto;
+}
+body{
+    background-color:lightslategray;
+}
+.red{
+    color: white;
+}
