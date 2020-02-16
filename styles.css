@@ -1,6 +1,14 @@
 h1{
-    text-align: center;
+    text-align: center;   
 }
 .names{
     text-align: center;
+}
+.Male{
+    color: navy;
+    float: left;
+}
+.Female{
+    color: palevioletred;
+    float: right;
 }
