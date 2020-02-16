@@ -27,7 +27,9 @@ body{
 }
 .baby{
     float: right;
-    
+    margin: 40px;
+    background-color: white;
+    padding: 20px;
 }
 body{
     font-size: xx-large;
