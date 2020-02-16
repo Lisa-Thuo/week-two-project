@@ -12,6 +12,7 @@ h1{
 .Female{
     color: pink;
     float: left;
+    padding-left: 500x;
 }
 .container {
     padding: 10px;
@@ -23,4 +24,11 @@ body{
 }
 .red{
     color: white;
+}
+.baby{
+    float: right;
+    
+}
+body{
+    font-size: xx-large;
 }
