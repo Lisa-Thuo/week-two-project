@@ -34,3 +34,11 @@ body{
 body{
     font-size: xx-large;
 }
+.one {
+    float: right;
+    font-size: smaller;
+    color: white;
+    margin: 12px;
+    margin-top: -80px;
+    padding: 40px;
+}

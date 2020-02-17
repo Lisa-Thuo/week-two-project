@@ -3,19 +3,50 @@
     <head>
         <title> Week Two Individual Project</title>
         <link href="styles.css" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <script src="scripts.js"></script>
     </head>
     <body>
 
         <h1 class="red"><strong>Akan Calender System</strong></h1>
-        <img src="tribe.jpg" alt="Picture of the tribe" width="800px">
+        <img src="tribe.jpg" alt="Picture of the tribe" width="800px" length="400px">
+
+        <div class="one">
+   
+                <h2>Indicate your Date of Birth</h2>
+                <form name="my-day" onsubmit="return validateform()">
+                  <p><em>Day</em></p>
+                  <input type="text" id="day" name="DD" value="">  <br> <br>
+                  <p><em>Month</em></p>
+                  <h2 class="calender"></h2>              
+                  <input type="text" id="month" name="MM" value="">  <br> <br>
+                  <p><em>Century</em></p>
+                  <input type="text" id="century" name="CC" value="">   <br> <br>
+                  <p><em>Year</em></p>
+                  <input type="text" id="year" name="YY" value="">   <br> <br>
+                  
+                  
+                  
+                  <input type="radio" id="gender" value="male"> Male <br> <br> <br>
+                  <input type="radio" id="gender" value="female"> Female <br> <br> <br>
+                  
+                  <input type="button" name="submit" value="click">
+
+                </form>
+              </div>
+            </div>
+             
+              <script src="scripts.js"></script>
+            
         
+
         <div class="container"></div>
         <h2 class="red">History</h2>   
             <p class="red">
                 The Akan naming system was formed by the ancient Akan tribe in the late 50's. They resided in Western Ghana and formulated the system as a means of record keeping. Each child was named according to the day they were born. Their names helped the elders determine their future. If for example, you were born on a Monday, you would have the most luck. Luck would progressively decrease as the days went by. In this page you will be able to determine your Akan name by indicating your date of birth. The calender will correspond with your response and give you an exact answer. 
             </p>
-        
-
+            
+            
         <h2 class="names">The Designated Names</h2>
         
     <div class="Male">
