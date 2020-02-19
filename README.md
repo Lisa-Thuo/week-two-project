@@ -1,7 +1,7 @@
 # Akan Calender
-### This is a calender that gives dates based on the Akan method, February 16, 2020
-## The calender converts your birthday and determines your Akan name.
-## You need to have a web browser installed in order to access this
+### This is a calender that gives dates based on the Akan method, which was formed by the Akan tribe in Ghana. It was last updated in February 16, 2020
+## The calender determines the specific day you were born, thus giving you your Akan name 
+## You need to have a web browser installed in order to access this page
 ## If the page refuses to load, ensure that your internet server is working. If it still refuses to load, close the tab and reopen it. 
 ## There are currently no known bugs in the system. It may run slow or fast depending on the strangth of your connection.
 ## I used HTML, Css, and JavaScript to design the website. 
