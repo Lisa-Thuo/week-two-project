@@ -37,7 +37,8 @@ body{
 #calender {
     float:right;
     width: 220px;
-    padding: 80px;
+    padding: 70px;
     color: white;
-
+    line-height: 70px;
+    margin-right: 90px;
 }

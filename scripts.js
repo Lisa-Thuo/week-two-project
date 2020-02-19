@@ -12,7 +12,7 @@ function getName() {
     if (male.checked == false && female.checked == false) {
         alert("Specify your gender");
     }
-    else if (year == "" || year.length < 4 || year.length >4 ){
+    else if (year == "" || year.length < 4 || year.length >4 || year){
         alert("Indicate a valid year");
     }
     else if (month < 1 || month > 12 || month == 2 && day > 29 ){
