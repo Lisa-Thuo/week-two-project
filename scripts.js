@@ -9,11 +9,12 @@ function getName() {
     var Weekdays = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
     var maleNames = ["Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"];
     var femaleNames = ["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"];
+    var dayIndex = Math.round((5*year/4)) + ((26*(month+1)/10)) + ((day) % 7);
     if (male.checked == false && female.checked == false) {
         alert("Specify your gender");
     }
-    else if (year == "" || year.length < 4 || year.length >4 || year){
-        alert("Indicate a valid year");
+    else if(year < 1  ){
+        alert("please indicate a valid year");
     }
     else if (month < 1 || month > 12 || month == 2 && day > 29 ){
         alert("Please indicate a valid month!");
@@ -26,4 +27,5 @@ function getName() {
     } else {
         alert("Your name is " + femaleNames[dob] );
     }
-};
+
+}
