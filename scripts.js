@@ -22,8 +22,8 @@ function getName() {
         alert("Indicate a valid day");
     }
     else if (male.checked === true) {
-        alert("Your name is" + maleNames[dob]);
+        alert(" Your name is " + maleNames[dob]);
     } else {
-        alert("Your name is " + femaleNames[dob] );
+        alert(" Your name is " +femaleNames[dob] );
     }
 };
