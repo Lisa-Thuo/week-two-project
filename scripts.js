@@ -3,6 +3,7 @@ function getName() {
     var month =parseInt(document.getElementById("MM").value);
     var day = parseInt(document.getElementById("DD").value);
     var date = new Date();
+    date.setDate(day);
     var dob = date.getDay();
     var male = document.getElementById("male");
     var female = document.getElementById("female");
@@ -20,6 +21,9 @@ function getName() {
     }
     else if( day < 1 || day >31) {
         alert("Indicate a valid day");
+    }
+    else if(isNaN(month)||(isNaN(day))||(isNaN(year))) {
+        alert("Indicate every detail");
     }
     else if (male.checked === true) {
         alert(" Your name is " + maleNames[dob]);
